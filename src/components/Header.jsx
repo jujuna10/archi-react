@@ -28,7 +28,8 @@ const Header = () => {
         >
             <div className='flex gap-[10px]'>
               <p className='hover:text-blue-700 hover:cursor-pointer duration-200'>{t("link1")}</p>
-              <img src={arrow} alt="arrow" className='w-[15px]' />
+              <img src={arrow} alt="arrow" className={`w-[15px] ${open ? "rotate-180" : ""} duration-700
+              `} />
             </div>
             <Link to='/project'><p className='hover:text-blue-700 hover:cursor-pointer duration-200'>{t("link2")}</p></Link>
             <p className='hover:text-blue-700 hover:cursor-pointer duration-200'>{t("link3")}</p>

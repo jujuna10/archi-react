@@ -13,7 +13,7 @@ import Footer from './components/Footer.jsx';
 import InputsProvider from './components/context/InputData.jsx';
 import AboutPage from './components/AboutPage.jsx';
 import Gallery from './components/Gallery.jsx';
-
+import Partners from './components/Partners.jsx';
 
 function App() {
   const location = useLocation();
@@ -41,6 +41,8 @@ function App() {
       <Routes>
         <Route path="/project" element={<Project />} />
         <Route path="/about" element={<> <Header /> <AboutPage /> <About /> <Gallery /> <Footer /> </>} />
+        <Route path="/partners" element={<> <Header /> <Partners /> <Footer /> </>} />
+
       </Routes>
     </div>
   );
