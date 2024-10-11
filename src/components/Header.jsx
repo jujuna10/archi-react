@@ -32,7 +32,7 @@ const Header = () => {
             </div>
             <Link to='/project'><p className='hover:text-blue-700 hover:cursor-pointer duration-200'>{t("link2")}</p></Link>
             <p className='hover:text-blue-700 hover:cursor-pointer duration-200'>{t("link3")}</p>
-            <p className='hover:text-blue-700 hover:cursor-pointer duration-200'>{t("link4")}</p>
+            <Link to='/materials'><p className='hover:text-blue-700 hover:cursor-pointer duration-200'>{t("link4")}</p></Link>
             <p className='hover:text-blue-700 hover:cursor-pointer duration-200'>{t("link5")}</p>
             <p className='hover:text-blue-700 hover:cursor-pointer duration-200'>{t("link6")}</p>
             <p className='hover:text-blue-700 hover:cursor-pointer duration-200'>{t("link7")}</p>

@@ -16,6 +16,7 @@ import Gallery from './components/Gallery.jsx';
 import Partners from './components/Partners.jsx';
 import Social from './components/Social.jsx';
 import Contact from './components/Contact.jsx';
+import Materials from './components/Materials.jsx';
 
 function App() {
   const location = useLocation();
@@ -48,6 +49,8 @@ function App() {
         <Route path="/contact" element={<> <Header /> <Contact /> <InputsProvider>
             <Reservation />
           </InputsProvider> <Footer /> </>} />
+        <Route path="/materials" element={<> <Header /> <Materials /> <Footer /> </>} />
+
 
 
       </Routes>

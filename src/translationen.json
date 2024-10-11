@@ -94,7 +94,33 @@
 "officesaddres":["Philharmonic building, 1 Melikishvili Ave, Tbilisi","13 Mikheil Tamarashvili st, Tbilisi","10 Navtlughi St, Tbilisi","3 Teimuraz Botchorishvili St, Tbilisi","25 Inasaridze st, Batumi"],
 "worktime":"Working hours:",
 "days":"Monday-Friday",
-"days2":"Saturday"
+"days2":"Saturday",
+"materialssection":"Main > Building materials",
+"materials":"Building materials",
+"allmaterialname": ["Ytong", "Heidelberg Concrete", "FunderMax", "Caparol", "Kone Elevators", "Alucobond", "Wienerberger Brick"],
+"allmaterialsdescription":[
+    "All construction projects by Archi are carried out using the energy-efficient building block from the German brand Ytong. Ytong is a world leader in the production of building blocks and was named Germany's brand of the century in 2013.",
+    "Compared to conventional concrete building blocks, Ytong blocks are 6 times less thermally conductive, meaning walls built with these blocks retain room temperature for longer. Heating or cooling the building consumes 40% less energy, reducing utility costs.",
+    "Ytong blocks are made from eco-friendly, natural materials. Another advantage is their fire resistance. Under intense fire exposure, the block withstands fire for up to 4 hours. Ytong blocks are lightweight, reducing pressure on the structure, which contributes to safety during seismic activity.",
+    "Archi uses concrete from the German brand HeidelbergCement. The company was established 150 years ago and has been operating in the Georgian market since 2006.",
+    "Heidelberg Cement's concrete guarantees the durability of the building - the company is a world leader in cement and concrete production. Concrete is produced under laboratory supervision, and product quality is continuously tested to meet international standards.",
+    "For facade finishing, Archi uses high-quality HPL panels from the world leader, the Austrian brand Fundermax. The company was founded in 1890 and has always used natural raw materials in production, a tradition it continues today. Fundermax panels are made using modern technology, are weather-resistant, and can withstand any weather and temperature.",
+    "Archi also uses materials from the German brand Caparol for facade finishing. The company was established in 1895 and has earned a reputation as an innovator, which it still maintains today. Caparol's paints, plasters, and other components are known for their high quality, durability, and resistance to climate change.",
+    "In Archi projects, the highest quality elevators are installed, one of which is the Finnish brand KONE, established in 1910, which gained worldwide recognition for its innovative elevators. KONE elevators are trusted globally because they are safe and feature a robust structure, excellent brakes, and an optimized drive system.",
+    "For facade finishing, Archi uses materials from the Swiss brand Alucobond. Founded in 1969, Alucobond quickly established itself as a reliable company in the local market and later became a global brand. Today, its high-quality panels are used by leading brands around the world.",
+    "For facade finishing, Archi uses bricks from the Austrian brand Wienerberger. The first Wienerberger brick factory opened in 1819 and became the largest factory in Europe over the years. Today, Wienerberger is a world leader in brick production. It produces durable and visually outstanding bricks that do not lose color or shape."
+  ]  
+
+
+
+
+
+
+
+
+
+
+
 
 
 
