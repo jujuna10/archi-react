@@ -24,10 +24,9 @@ const Header = () => {
   return (
     <div className='flex justify-evenly items-center'>
         <Link to='/'><img src={logo} alt="archi logo" className='w-[90px]'/></Link>
-        <div className='flex gap-[25px]' onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}
-        >
+        <div className='flex gap-[25px]' >
             <div className='flex gap-[10px]'>
-              <p className='hover:text-blue-700 hover:cursor-pointer duration-200'>{t("link1")}</p>
+              <p className='hover:text-blue-700 hover:cursor-pointer duration-200' onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>{t("link1")}</p>
               <img src={arrow} alt="arrow" className={`w-[15px] ${open ? "rotate-180" : ""} duration-700
               `} />
             </div>
@@ -37,7 +36,7 @@ const Header = () => {
             <p className='hover:text-blue-700 hover:cursor-pointer duration-200'>{t("link5")}</p>
             <p className='hover:text-blue-700 hover:cursor-pointer duration-200'>{t("link6")}</p>
             <p className='hover:text-blue-700 hover:cursor-pointer duration-200'>{t("link7")}</p>
-            <p className='hover:text-blue-700 hover:cursor-pointer duration-200'>{t("link8")}</p>
+            <Link to='/contact'><p className='hover:text-blue-700 hover:cursor-pointer duration-200'>{t("link8")}</p></Link>
         </div>
 
         <div className='flex items-center gap-[20px]'>

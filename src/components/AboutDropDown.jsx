@@ -15,16 +15,14 @@ export default function AboutDropDown({ isOpen, onMouseEnter, onMouseLeave }) {
         <div className='absolute top-[68px] left-[290px] border border-gray-400 pt-[20px] pb-[20px] p-[10px] bg-white rounded-[10px] z-50 transition-opacity duration-300' onMouseEnter={onMouseEnter} onMouseLeave={onMouseLeave}>        
             {language === "ka" ?
             geo.map((item,index) => (
-                index === 0 ? (
-                    <Link to='/about'><p key={index} value={item}>{item}</p></Link>
-                ) : index === 1 ? <Link to='/partners' key={index}><p>{item}</p></Link> :
-                <p>{item}</p>
+                <Link to={index === 0 ? '/about' : index === 1 ? '/partners' : '/social'} key={index}>
+                        <p>{item}</p>
+                </Link>
 
             )) : eng.map((item,index) => (
-                index === 0 ? (
-                    <Link to='/about'><p key={index} value={item}>{item}</p></Link>
-                ) : index === 1 ? <Link to='/partners' key={index}><p>{item}</p></Link> :
-                <p>{item}</p>
+                <Link to={index === 0 ? '/about' : index === 1 ? '/partners' : '/social'} key={index}>
+                        <p>{item}</p>
+                </Link>
             ))}
         
     </div>
