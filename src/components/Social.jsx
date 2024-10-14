@@ -13,7 +13,7 @@ export default function Social() {
     const images = [s1,s2,s3,s4]
 
   return (
-    <div className='bg-[rgb(234,241,247)] p-[50px]'>
+    <div className='bg-[rgb(234,241,247)] p-[50px] rounded-tr-[200px]'>
         <div className='flex flex-col gap-[20px] ml-[10%]'>
             <p>{t("pagetitle2")}</p>
             <p className='text-[25px] font-semibold'>{t("moretitle")}</p>

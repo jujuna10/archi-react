@@ -17,6 +17,9 @@ import Partners from './components/Partners.jsx';
 import Social from './components/Social.jsx';
 import Contact from './components/Contact.jsx';
 import Materials from './components/Materials.jsx';
+import ArchiMaiami from './components/ArchiMaiami.jsx';
+import ArqiFix from './components/ArqiFix.jsx';
+import ArqiRent from './components/ArqiRent.jsx';
 
 function App() {
   const location = useLocation();
@@ -50,6 +53,10 @@ function App() {
             <Reservation />
           </InputsProvider> <Footer /> </>} />
         <Route path="/materials" element={<> <Header /> <Materials /> <Footer /> </>} />
+        <Route path="/maiami" element={<> <Header /> <ArchiMaiami />  <Footer /> </>} />
+        <Route path="/fix" element={<> <Header /> <ArqiFix />  <Footer /> </>} />
+        <Route path="/rent" element={<> <Header /> <ArqiRent />  <Footer /> </>} />
+
 
 
 
