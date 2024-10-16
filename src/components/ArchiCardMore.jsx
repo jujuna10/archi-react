@@ -61,11 +61,11 @@ export default function ArchiCard() {
     const companies = language === "ka" ? companyKa : companyEng
 
     const handleClick = (category) => {
-        setSelected(category)
-        setSelected(category === "ყველა" ? null : category === "All" ? null : category)
-        // setSelected(category === "All" ? null : category)
+        setSelected(category === "ყველა" || category === "All" ? null : category);
 
     }
+
+    console.log(companies)
 
     const filteredCompanies = selected 
         ? companies.filter(company => company.category === selected)
@@ -95,7 +95,7 @@ export default function ArchiCard() {
                         {filteredCompanies.length ? (
                             filteredCompanies.map((item, index) => (
                                 <div key={index} className='flex flex-col gap-[10px] justify-center items-start relative'>
-                                    <img src={companiesLogo[index]} alt='photo' className='w-[225px] h-[200px] rounded-[10px] rounded-tr-[50px]' />
+                                    <img src={companiesLogo[companies.indexOf(item)]} alt='photo' className='w-[225px] h-[200px] rounded-[10px] rounded-tr-[50px]' />
                                     <p className='text-blue-700'>#{item.category}</p>
                                     <p className='text-[20px] font-bold'>{item.name}</p>
                                     <p className='absolute top-[-10px] left-[35px] bg-[rgb(110,127,202)] p-[10px] w-[95px] rounded-bl-[20px] rounded-br-[20px] text-white font-bold font-[20px]'>{item.discount}</p>
