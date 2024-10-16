@@ -20,6 +20,8 @@ import Materials from './components/Materials.jsx';
 import ArchiMaiami from './components/ArchiMaiami.jsx';
 import ArqiFix from './components/ArqiFix.jsx';
 import ArqiRent from './components/ArqiRent.jsx';
+import ArchiCardMore from './components/ArchiCardMore.jsx';
+import CompanyProvider from './components/context/ArchiCardData.jsx';
 
 function App() {
   const location = useLocation();
@@ -56,6 +58,7 @@ function App() {
         <Route path="/maiami" element={<> <Header /> <ArchiMaiami />  <Footer /> </>} />
         <Route path="/fix" element={<> <Header /> <ArqiFix />  <Footer /> </>} />
         <Route path="/rent" element={<> <Header /> <ArqiRent />  <Footer /> </>} />
+        <Route path="/card" element={<> <Header /> <CompanyProvider><ArchiCardMore /></CompanyProvider> <Footer /> </>} />
 
 
 

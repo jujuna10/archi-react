@@ -123,7 +123,13 @@
   "fixtext": ["Archi Fix is a service that helps Archi residents resolve household problems, offering professional plumbing, electrical, and general repair services, with high-quality solutions, tailored conditions, and easy call-out options. For more information or to place an order, visit www.archifix.ge or call +995 32 2 502 501."],
   "renttitle":"Arqi Rent",
   "rentsection":"Main > Arqi Rent",
-  "renttext": ["Archi Rent is exclusively designed for Archi residents. It is a service that provides apartment rental solutions – Archi Rent makes offers to potential tenants and negotiates with the desired client on behalf of the owner.", "After renting out the apartment, all communication with the tenant is handled by the Archi Rent team. Therefore, Archi residents who wish to rent out their apartments save time, energy, and peacefully receive additional income.", "To use the service and get detailed information, visit the website archirent.ge or contact us at +995 32 2 602 602."]
+  "renttext": ["Archi Rent is exclusively designed for Archi residents. It is a service that provides apartment rental solutions – Archi Rent makes offers to potential tenants and negotiates with the desired client on behalf of the owner.", "After renting out the apartment, all communication with the tenant is handled by the Archi Rent team. Therefore, Archi residents who wish to rent out their apartments save time, energy, and peacefully receive additional income.", "To use the service and get detailed information, visit the website archirent.ge or contact us at +995 32 2 602 602."],
+  "cardsection":"Main > Arqi Card",
+  "cardtitle":"Archi Card",
+  "cardtext2":"Archi Card is a discount card designed for Archi residents. Archi Card owners are entitled to various discounts on technical appliances, furniture, repair materials, and all necessary gardening tools and decor items at Archi's partner stores. Additionally, the card allows them to enjoy a range of different sports and entertainment facilities with great discounts.",
+  "search":["All", "Renovation materials", "Furniture", "Technology", "Decor", "Gardening", "Healthy living", "Other", "Smart home", "Education"],
+  "footertext":["Company", "Management Team", "Social Responsibility", "Projects", "Archi Miami", "Construction Quality", "Archi Reviews", "Archi Card", "Archi Fix", "Archi Rent", "News", "Blog", "Contact"]
+
 
 
 
