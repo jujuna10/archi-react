@@ -1,6 +1,5 @@
 import Header from './components/Header';
 import { Route, Routes, useLocation } from 'react-router-dom';
-import Project from './components/Project.jsx';
 import HeroSection from './components/HeroSection.jsx';
 import ProjectInMainPage from './components/ProjectInMainPage.jsx';
 import Payment from './components/Payment.jsx';
@@ -47,7 +46,7 @@ function App() {
       )}
 
       <Routes>
-        <Route path="/project" element={<Project />} />
+        {/* <Route path="/project" element={<Project />} /> */}
         <Route path="/about" element={<> <Header /> <AboutPage /> <About /> <Gallery /> <Footer /> </>} />
         <Route path="/partners" element={<> <Header /> <Partners /> <Footer /> </>} />
         <Route path="/social" element={<> <Header /> <Social /> <Footer /> </>} />

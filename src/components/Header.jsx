@@ -40,7 +40,7 @@ const Header = () => {
               <p className='hover:text-blue-700 hover:cursor-pointer duration-200' onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>{t("link1")}</p>
               <img src={arrow} alt="arrow" className={`w-[20px] ${open ? "rotate-180" : ""} duration-700`} />
             </div>
-            <Link to='/project'><p className='hover:text-blue-700 hover:cursor-pointer duration-200'>{t("link2")}</p></Link>
+            <p className='hover:text-blue-700 hover:cursor-pointer duration-200'>{t("link2")}</p>
             <Link to='/maiami'><p className='hover:text-blue-700 hover:cursor-pointer duration-200'>{t("link3")}</p></Link>
             <Link to='/materials'><p className='hover:text-blue-700 hover:cursor-pointer duration-200'>{t("link4")}</p></Link>
             <p className='hover:text-blue-700 hover:cursor-pointer duration-200'>{t("link5")}</p>
